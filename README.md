@@ -13,9 +13,9 @@ This project is a simple Laravel application that compares the prices of Ethereu
 - Display of the lowest and highest prices for ETH, BNB, and BTC.
 
 
-(https://github.com/osmanahmetdemir/Cryptocurrency-Price-Comparison-Site/blob/main/1.jpg)
+!(https://github.com/osmanahmetdemir/Cryptocurrency-Price-Comparison-Site/blob/main/1.jpg)
 
-(https://github.com/osmanahmetdemir/Cryptocurrency-Price-Comparison-Site/blob/main/2.jpg)
+!(https://github.com/osmanahmetdemir/Cryptocurrency-Price-Comparison-Site/blob/main/2.jpg)
 
 ## Installation
 
