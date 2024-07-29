@@ -1,0 +1,94 @@
+/* public/css/styles.css */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5em;
+    color: #333;
+}
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #1e90ff;
+}
+.crypto-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1400px;
+}
+.crypto-table {
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.crypto-table h2 {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 10px 0;
+    margin: 0;
+}
+.crypto-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.crypto-table table th, .crypto-table table td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.9em;
+}
+.crypto-table table th {
+    background-color: #4caf50;
+    color: white;
+}
+.crypto-table table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.crypto-table table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+.crypto-table table td.price {
+    font-weight: bold;
+    color: black;
+}
+.min-max-table-container {
+    width: 70%;
+    margin: 40px auto;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.min-max-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+.min-max-table th, .min-max-table td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.9em;
+}
+.min-max-table th {
+    background-color: #4caf50;
+    color: white;
+}
+.min-max-table td.price {
+    font-weight: bold;
+    color: black;
+}
+.min-max-table tr:hover {
+    background-color: #f1f1f1;
+}
